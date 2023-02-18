@@ -1,0 +1,156 @@
+.edit-reg{
+    width: 38%;
+    height: 750px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.heading-form{
+    margin-top: 2%;
+    color: rgb(6, 165, 228);
+}
+
+.form-control{
+    border-radius: 0%;
+}
+
+.btn{
+    border-radius: 0%;
+}
+
+.form-label{
+    font-weight: bold;
+    margin-left: -60%;
+}
+
+#title-txt{
+    margin-left: -55%;
+}
+
+#email-txt{
+    margin-left: -55%;
+}
+
+#description{
+    margin-left: -60%;
+}
+
+.dropdown-div{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.label-drop{
+    margin-right: 25%;
+    margin-left: -25%;
+    font-weight: bold;
+}
+
+.label-down{
+    font-weight: bold;
+}
+
+.name{
+    margin-left: 11%;
+    width: 25%;
+    border-radius: 0%;
+    height: 35px;
+}
+
+.name1{
+    margin-left: -20%;
+    border-radius: 0%;
+    height: 35px;
+}
+
+.name:hover{
+    border: 2px solid rgb(3, 99, 163);
+}
+
+.name1:hover{
+    border: 2px solid rgb(3, 99, 163);
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+}
+
+.name2{
+    width: 80%;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0%;
+}
+
+.status-label{
+    margin-left: -51%;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+
+.edit-txt{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.edituser-div{
+    display: flex;
+}
+
+.edit-txt img{
+	margin-top: 5%;
+	margin-bottom: 4%;
+	width: 55%;
+	-webkit-animation: mover 2s infinite alternate;
+	animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover{
+	0% { transform: translateY(0); }
+	100% {transform: translateY(-20px); }
+}
+@keyframes mover{
+	0% { transform: translateY(0); }
+	100% {transform: translateY(-20px); }
+}
+
+.edit-btn{
+    margin-top: 4%;
+    text-decoration: none;
+    border: none;
+    box-shadow: 4px 4px 0 rgba(0,0,0,.5);
+    padding: 2%;
+    width: 30%;
+    color: #fff;
+    font-weight: bold;
+    background-color: #00008B;
+    cursor: pointer;
+  }
+  
+.edit-btn:hover{
+    box-shadow: 0 0 0 ;
+}
+
+.edit-heading{
+    color: #00008B;
+    margin-bottom: 5%;
+}
+
+#back-arrow:hover{
+    color:  black;
+}

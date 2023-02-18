@@ -1,0 +1,92 @@
+/* .reg{
+  width: 450px;
+  height: 550px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 35%;
+}
+h1{
+  color: rgb(6, 165, 228);
+}
+
+.form-control{
+  width: 80%;
+  border: 1px solid black;
+  margin-left: 10%;
+}
+.form-control:hover{
+  border: 2px solid rgb(3, 99, 163);
+}
+.btn{
+  width: 80%;
+}
+#email{
+  margin-left: -63%;
+  font-weight: bold;
+  color: black;
+}
+#title{
+  margin-left: -58%;
+  font-weight: bold;
+  color: black;
+}
+#desc{
+  margin-left: -63%;
+  font-weight: bold;
+  color: black;
+}
+#button:hover{
+  border: 1px solid rgb(3, 99, 163);
+}
+.btnredirect:hover{
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.table{
+  width: 90%;
+  margin: 2% auto 0 auto;
+}
+.fa-pencil{
+  color: green;
+  font-size: 150%;
+}
+.fa-trash{
+  color: red;
+  font-size: 150%;
+}
+thead{
+  background: rgb(3, 99, 163);
+  color: white;
+}
+tbody{
+  font-weight: lighter;
+}*/
+
+.tab:hover{
+  color:  #89CFF0;
+} 
+
+.nav-pointer{
+  font-family: monospace;
+}
+.nav-pointer:hover{
+  /* color:#0277fd; */
+  color:#3d97fd;
+}
+.logo-top{
+  width: 6%;
+  height: 6%;
+}
+
+.nav-pointer{
+  margin-left: -1%;
+  margin-top: 1%;
+}

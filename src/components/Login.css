@@ -1,0 +1,85 @@
+.login{
+    width: 450px;
+    height: 450px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.div-login{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    margin-top: 5%;
+}
+
+.login-txt{
+    width: 30%;
+    margin: auto;
+    margin-top: 15%;
+    margin-left: 13%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-heading{
+    color: #00008B;
+}
+
+.login-text{
+    color: rgb(6, 165, 228);
+    margin-top: 5%;
+    font-weight: bold
+}
+
+h1{
+    color: black
+}
+
+.form-control{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 10%;
+}
+.form-control:hover{
+    border: 2px solid rgb(3, 99, 163);
+}
+.btn{
+    width: 80%;
+    background-color: rgb(6, 165, 228);
+}
+#password{
+    margin-left: -55%;
+    font-weight: bold;
+    color: black;
+}
+
+#email{
+    margin-left: -63%;
+    font-weight: bold;
+    color: black;
+}
+
+#button:hover{
+    border: 1px solid rgb(3, 99, 163);
+}
+
+.btnredirect{
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+.btnredirect:hover{
+    color: #00008B;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}

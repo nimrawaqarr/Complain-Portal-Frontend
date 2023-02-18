@@ -1,0 +1,117 @@
+.register-user{
+  width: 450px;
+  height: 620px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-right: 18%;
+  margin-top: 2%;
+}
+
+.main-reg{
+  display: flex;
+  flex-direction: row;
+}
+
+.reg-txt{
+  width: 30%;
+  margin: auto;
+  margin-top: 12%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg-text{
+  color: rgb(6, 165, 228);
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.reg-text1{
+  margin-top: 8%;
+  color: #00008B;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+/* .register-user{
+    width: 450px;
+    height: 620px;
+    background: #fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 1rem;
+    margin-right: 18%;
+    margin-top: 2%;
+  } */
+
+  .heading{
+    color: rgb(6, 165, 228);
+  }
+  
+  .form-control{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 10%;
+  }
+
+  .form-control:hover{
+    border: 2px solid rgb(3, 99, 163);
+  }
+  
+  .btn{
+    width: 80%;
+    background-color: rgb(6, 165, 228);
+  }
+  
+  #password{
+    margin-left: -52%;
+    font-weight: bold;
+    color: black;
+  }
+
+  #passwordre{
+    margin-left: -45%;
+    font-weight: bold;
+    color: black;
+  }
+
+  #email{
+    margin-left: -60%;
+    font-weight: bold;
+    color: black;
+  }
+
+  #button:hover{
+    border: 1px solid rgb(3, 99, 163);
+  }
+
+  .btnredirect{
+    text-decoration: none;
+    margin-left: 1%;
+  }
+
+  .btnredirect:hover{
+    color: #00008B;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .login-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .form-label{
+    margin-left: 8%;
+  }
